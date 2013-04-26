@@ -1,8 +1,68 @@
+#nav-bar ul li ul{
+	display:none;
+	
+	float:left; 
+	background-color:#f7faef; 
+	margin:0px;
+	padding: 15px 8px;
+	width: 200px;
 /*
-#report-button{
-	color:red;
-}
+	-webkit-transition: all .5s linear;
+	height:0px;
 */
+}
+
+#nav-bar ul li:hover > ul{
+	display:block;	
+/* 	height: 300px; */
+}
+
+.trans-height300{
+	height: 300px;
+}
+
+.trans-height74{
+	height:74px;
+}
+
+#nav-bar ul li ul li #korea-2013{
+	color: red;
+}
+
+#nav-bar ul li ul li #korea-2013: hover {
+	color: blue;
+}
+
+
+/********** COLOR **********/
+.genius{
+	display: none;
+	width:110px;
+	height:110px;
+	background-color:#ECF6ED; /* light green */
+}
+
+.gifted{
+	display:none;
+	width:110px;
+	height:110px;
+	background-color:#E6F7F5; /* light mint */
+}
+
+.average{
+	display: none;
+	width:110px;
+	height:110px;	
+	background-color:#F3F1F7; /* light purple */
+}
+
+.challenged{
+	display:none;
+	width:110px;
+	height:110px;
+	background-color:#FCF9E9; /* light yellow */
+}
+
 
 
 /**** Isotope Filtering ****/

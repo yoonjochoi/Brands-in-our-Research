@@ -178,9 +178,11 @@ body {
   position: relative;
   background: #e5e5e5;
   color: #222;
+/*
   -webkit-border-top-right-radius: 1.2em;
       -moz-border-radius-topright: 1.2em;
           border-top-right-radius: 1.2em;
+*/
 }
 
 .element.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
@@ -299,7 +301,7 @@ body {
 
 #options li a {
   display: block;
-  padding: 0.4em 0.5em;
+/*   padding: 0.4em 0.5em; */
 /*   background-color: #ffffff; */
 /*   background-color: #DDD; */
 /*   color: #222; */
@@ -318,6 +320,28 @@ body {
 #options li a:hover {
 /*   background-color: #5BF; */
 }
+
+#options .current a, #options li:hover > a{
+/* 	background-color: red; */
+}
+
+/*
+#options ul{
+
+	
+	width:185px;
+	position:absolute;
+	top:35px;
+	left:0px;
+	background-color: red;
+}
+*/
+
+/*
+#options li:hover > ul {
+	display:block;
+}
+*/
 
 #options li a:active {
 /*   background-color: #39D; */
@@ -350,7 +374,7 @@ body {
 #options li a.selected {
 /*   background-color: #13F; */
   text-shadow: none;
-  color: #A0CD55;
+  color: #A0CD55; /* kiwi */
 }
 
 /* Combination filter options*/
